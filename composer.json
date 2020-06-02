@@ -1,0 +1,21 @@
+{
+    "name": "mimic/util",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support":">=5.0,>=6.0,>=7.0"
+    },
+    "authors": [
+        {
+            "name": "超超",
+            "email": "qianchao@jinlanzuan.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4":{
+            "util\\": "src/"
+        }
+    }
+}
